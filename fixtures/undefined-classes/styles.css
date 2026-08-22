@@ -1,0 +1,54 @@
+@import "./utilities.css";
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: sans-serif;
+  color-scheme: light dark;
+}
+
+#id {
+  border: 1px solid red;
+}
+
+button {
+  border: none;
+  background-color: grey;
+}
+
+.input {
+  font: inherit;
+  border: 1px solid grey;
+  color: grey;
+}
+
+:focus {
+  outline: 2px solid blue;
+}
+
+.foo-wrapper,
+.bar-wrapper {
+  color: red;
+}
+
+:is(.component--element__state) {
+  opacity: 50%;
+}
+
+@media (max-width: 768px) {
+  .lg {
+    display: none;
+  }
+}
+
+.definedClass {
+  color: black;
+}
+
+.unusedClass {
+  text-transform: uppercase;
+}

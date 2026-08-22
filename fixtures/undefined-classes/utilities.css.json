@@ -1,0 +1,12 @@
+[
+  {
+    "ruleId": "stylish/no-unused-class",
+    "severity": 2,
+    "message": "Class \"lg:flex-row\" is not referenced in any JS file.",
+    "line": 8,
+    "column": 3,
+    "messageId": "unusedClass",
+    "endLine": 8,
+    "endColumn": 16
+  }
+]

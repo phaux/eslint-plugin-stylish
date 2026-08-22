@@ -1,0 +1,39 @@
+{
+  "name": "eslint-plugin-stylish",
+  "version": "0.1.0",
+  "description": "CSS Eslint plugin",
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./types/index.d.ts",
+      "default": "./lib/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "main": "./lib/index.js",
+  "types": "./types/index.d.ts",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint",
+    "prepare": "tsc --project tsconfig.build.json",
+    "snapshot": "node --test --test-update-snapshots",
+    "test": "node --test"
+  },
+  "prettier": {
+    "semi": false
+  },
+  "dependencies": {
+    "glob": "^13.0.6"
+  },
+  "devDependencies": {
+    "@eslint/css": "^1.4.0",
+    "@eslint/js": "^10.0.1",
+    "@types/node": "^26.2.0",
+    "eslint": "^10.9.0",
+    "globals": "^17.11.0",
+    "prettier": "^3.9.6",
+    "typescript": "^6.0.3",
+    "typescript-eslint": "^8.33.1"
+  }
+}

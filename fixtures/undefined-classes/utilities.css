@@ -1,0 +1,13 @@
+@layer utilities {
+  .hover\:bg-\[Highlight\] {
+    &:hover {
+      background-color: Highlight;
+    }
+  }
+
+  .lg\:flex-row {
+    @media (width >= 768px) {
+      flex-direction: row;
+    }
+  }
+}

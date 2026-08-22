@@ -1,0 +1,62 @@
+[
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"root\" is not defined in any CSS file.",
+    "line": 4,
+    "column": 23,
+    "messageId": "undefinedClass",
+    "endLine": 4,
+    "endColumn": 27
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"id\" is not defined in any CSS file.",
+    "line": 5,
+    "column": 23,
+    "messageId": "undefinedClass",
+    "endLine": 5,
+    "endColumn": 25
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"before\" is not defined in any CSS file.",
+    "line": 6,
+    "column": 23,
+    "messageId": "undefinedClass",
+    "endLine": 6,
+    "endColumn": 29
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"after\" is not defined in any CSS file.",
+    "line": 6,
+    "column": 30,
+    "messageId": "undefinedClass",
+    "endLine": 6,
+    "endColumn": 35
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"baz-wrapper\" is not defined in any CSS file.",
+    "line": 8,
+    "column": 35,
+    "messageId": "undefinedClass",
+    "endLine": 8,
+    "endColumn": 46
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"button\" is not defined in any CSS file.",
+    "line": 10,
+    "column": 23,
+    "messageId": "undefinedClass",
+    "endLine": 10,
+    "endColumn": 29
+  }
+]

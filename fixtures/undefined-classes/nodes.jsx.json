@@ -1,0 +1,22 @@
+[
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"undefinedClass\" is not defined in any CSS file.",
+    "line": 13,
+    "column": 29,
+    "messageId": "undefinedClass",
+    "endLine": 13,
+    "endColumn": 43
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"undefinedClass\" is not defined in any CSS file.",
+    "line": 14,
+    "column": 33,
+    "messageId": "undefinedClass",
+    "endLine": 14,
+    "endColumn": 47
+  }
+]

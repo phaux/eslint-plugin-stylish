@@ -1,0 +1,12 @@
+[
+  {
+    "ruleId": "stylish/no-unused-class",
+    "severity": 2,
+    "message": "Class \"unusedClass\" is not referenced in any JS file.",
+    "line": 52,
+    "column": 1,
+    "messageId": "unusedClass",
+    "endLine": 52,
+    "endColumn": 13
+  }
+]
