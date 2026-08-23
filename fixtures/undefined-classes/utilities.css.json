@@ -5,7 +5,7 @@
     "message": "Class \"lg:flex-row\" is not referenced in any JS file.",
     "line": 8,
     "column": 3,
-    "messageId": "unusedClass",
+    "messageId": "classNotUsed",
     "endLine": 8,
     "endColumn": 16
   }

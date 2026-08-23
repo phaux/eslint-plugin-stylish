@@ -3,20 +3,150 @@
     "ruleId": "stylish/no-undefined-class",
     "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
-    "line": 13,
+    "line": 2,
+    "column": 35,
+    "messageId": "classNotDefined",
+    "endLine": 2,
+    "endColumn": 49
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"undefinedClass\" is not defined in any CSS file.",
+    "line": 3,
+    "column": 45,
+    "messageId": "classNotDefined",
+    "endLine": 3,
+    "endColumn": 59
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"undefinedClass\" is not defined in any CSS file.",
+    "line": 4,
+    "column": 22,
+    "messageId": "classNotDefined",
+    "endLine": 4,
+    "endColumn": 36
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"undefinedClass\" is not defined in any CSS file.",
+    "line": 6,
+    "column": 37,
+    "messageId": "classNotDefined",
+    "endLine": 6,
+    "endColumn": 51
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"undefinedClass\" is not defined in any CSS file.",
+    "line": 7,
+    "column": 26,
+    "messageId": "classNotDefined",
+    "endLine": 7,
+    "endColumn": 40
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"undefinedClass\" is not defined in any CSS file.",
+    "line": 10,
+    "column": 34,
+    "messageId": "classNotDefined",
+    "endLine": 10,
+    "endColumn": 48
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"undefinedClass\" is not defined in any CSS file.",
+    "line": 15,
     "column": 29,
-    "messageId": "undefinedClass",
-    "endLine": 13,
+    "messageId": "classNotDefined",
+    "endLine": 15,
     "endColumn": 43
   },
   {
     "ruleId": "stylish/no-undefined-class",
     "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
-    "line": 14,
-    "column": 33,
-    "messageId": "undefinedClass",
-    "endLine": 14,
-    "endColumn": 47
+    "line": 16,
+    "column": 34,
+    "messageId": "classNotDefined",
+    "endLine": 16,
+    "endColumn": 48
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"undefinedClass\" is not defined in any CSS file.",
+    "line": 17,
+    "column": 35,
+    "messageId": "classNotDefined",
+    "endLine": 17,
+    "endColumn": 49
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"undefinedClass\" is not defined in any CSS file.",
+    "line": 18,
+    "column": 39,
+    "messageId": "classNotDefined",
+    "endLine": 18,
+    "endColumn": 53
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"undefinedClass\" is not defined in any CSS file.",
+    "line": 20,
+    "column": 44,
+    "messageId": "classNotDefined",
+    "endLine": 20,
+    "endColumn": 58
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"undefinedClass\" is not defined in any CSS file.",
+    "line": 34,
+    "column": 55,
+    "messageId": "classNotDefined",
+    "endLine": 34,
+    "endColumn": 69
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"undefinedClass\" is not defined in any CSS file.",
+    "line": 40,
+    "column": 48,
+    "messageId": "classNotDefined",
+    "endLine": 40,
+    "endColumn": 62
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"undefinedClass\" is not defined in any CSS file.",
+    "line": 41,
+    "column": 47,
+    "messageId": "classNotDefined",
+    "endLine": 41,
+    "endColumn": 61
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"undefinedClass\" is not defined in any CSS file.",
+    "line": 42,
+    "column": 40,
+    "messageId": "classNotDefined",
+    "endLine": 42,
+    "endColumn": 54
   }
 ]

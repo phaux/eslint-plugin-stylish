@@ -45,10 +45,19 @@ button {
   }
 }
 
-.definedClass {
+.definedClass,
+.definedWrapper {
   color: black;
 }
 
 .unusedClass {
   text-transform: uppercase;
+}
+
+.\﷽ {
+  color: green;
+}
+
+.\ꙮ {
+  color: blue;
 }

@@ -1,23 +1,35 @@
 export function App() {
   const className = "definedClass undefinedClass"
   const fooClassName = " definedClass " + " undefinedClass "
-  const barClass = `definedClass ${1} undefinedClass`
+  const barClass = ` undefinedClass ${1} definedClass `
   const props = {
     className: " definedClass " + " undefinedClass ",
     class: "definedClass undefinedClass",
+    fnClass: () => "definedClass fnClass",
+    objClass: { definedWrapper: "definedClass", objWrapper: "objClass" },
     fooClass: `definedClass ${1} undefinedClass`,
   }
   return (
-    <>
+    <main randomProp="randomPropClass">
       <div
         class="definedClass undefinedClass"
-        className="definedClass undefinedClass"
-      />
-      <div
-        class={"definedClass undefinedClass"}
-        className={"definedClass undefinedClass"}
+        className="definedClass  undefinedClass"
+        altClass={"definedClass \uA66E undefinedClass"}
+        altClassName={"definedClass \uFDFD undefinedClass"}
       />
       <div className={" definedClass " + " undefinedClass "} />
+      <div
+        class={() => {
+          return "callbackClass"
+        }}
+      />
+      <div
+        className={
+          <span otherProp="otherPropClass">
+            {"childClass" + "alsoChildClass"}
+          </span>
+        }
+      />
       <div
         className={`
           definedClass
@@ -28,6 +40,6 @@ export function App() {
       <App {...props} className={`${className} undefinedClass`} />
       <App {...props} class={fooClassName + " undefinedClass"} />
       <span className={clsx(barClass, "undefinedClass")} />
-    </>
+    </main>
   )
 }
