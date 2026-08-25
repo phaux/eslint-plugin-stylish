@@ -24,14 +24,14 @@ export function App() {
         }}
       />
       <div
-        className={
+        classNames={
           <span otherProp="otherPropClass">
             {"childClass" + "alsoChildClass"}
           </span>
         }
       />
       <div
-        className={`
+        classes={`
           definedClass
           undefinedClass
           definedClass

@@ -1,7 +1,7 @@
 [
   {
     "ruleId": "stylish/no-unused-class",
-    "severity": 2,
+    "severity": 1,
     "message": "Class \"unusedClass\" is not referenced in any JS file.",
     "line": 53,
     "column": 1,
@@ -11,7 +11,7 @@
   },
   {
     "ruleId": "stylish/no-unused-class",
-    "severity": 2,
+    "severity": 1,
     "message": "Class \"﷽\" is not referenced in any JS file.",
     "line": 57,
     "column": 1,
@@ -21,7 +21,7 @@
   },
   {
     "ruleId": "stylish/no-unused-class",
-    "severity": 2,
+    "severity": 1,
     "message": "Class \"ꙮ\" is not referenced in any JS file.",
     "line": 61,
     "column": 1,

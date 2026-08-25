@@ -40,7 +40,7 @@ for (const fixtureDir of fixtureDirs) {
             },
             plugins: { js, stylish },
             rules: {
-              "stylish/no-undefined-class": "error",
+              ...stylish.configs.js.rules,
             },
           },
           {
@@ -48,8 +48,7 @@ for (const fixtureDir of fixtureDirs) {
             language: "css/css",
             plugins: { css, stylish },
             rules: {
-              "stylish/no-unused-class": "error",
-              "stylish/no-missing-atom": "error",
+              ...stylish.configs.css.rules,
             },
           },
         ],
