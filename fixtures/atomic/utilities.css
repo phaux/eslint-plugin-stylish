@@ -1,0 +1,140 @@
+:root {
+  --spacing: 4px;
+}
+
+.-inset-x-2 {
+  inset-block: calc(var(--spacing) * -2);
+}
+
+.aspect-square {
+  aspect-ratio: 1 / 1;
+}
+
+.box-border {
+  box-sizing: border-box;
+}
+
+.clear-left {
+  clear: left;
+}
+
+.collapse {
+  visibility: collapse;
+}
+
+.columns-2 {
+  column-count: 2;
+}
+
+.content-end-safe {
+  align-content: safe flex-end;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-nowrap {
+  flex-wrap: nowrap;
+}
+
+.float-right {
+  float: right;
+}
+
+.gap-2 {
+  gap: calc(var(--spacing) * 2);
+}
+
+.grow {
+  flex-grow: 1;
+}
+
+.h-screen {
+  height: 100vw;
+}
+
+.hidden {
+  display: none;
+}
+
+.inline {
+  display: inline;
+}
+
+.inset-y-1\/4 {
+  inset-inline: calc(1 / 4 * 100%);
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.m-2 {
+  margin: calc(var(--spacing) * 2);
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
+.min-w-1\/2 {
+  min-width: calc(1 / 2 / 2 * 100%);
+}
+
+.order-10 {
+  order: 10;
+}
+
+.overflow-x-auto {
+  overflow-x: auto;
+}
+
+.overscroll-contain {
+  overscroll-behavior: contain;
+}
+
+.self-start {
+  align-self: flex-start;
+}
+
+.shrink {
+  flex-shrink: 1;
+}
+
+.size-auto {
+  width: auto;
+  height: auto;
+}
+
+.static {
+  position: static;
+}
+
+.w-fit {
+  width: fit-content;
+}
+
+.z-100 {
+  z-index: 100;
+}
+
+.md\:columns-3 {
+  @media (width >= 52rem) {
+    column-count: 3;
+  }
+}
+
+.lg\:collapse {
+  @media (width >= 64rem) {
+    visibility: collapse;
+  }
+}

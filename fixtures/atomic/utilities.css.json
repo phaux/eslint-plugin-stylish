@@ -1,0 +1,597 @@
+[
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"isolate\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 72,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 73,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        692,
+        692
+      ],
+      "text": "\n\n.isolate { isolation: isolate }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"mbs-8\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 88,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 89,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        872,
+        872
+      ],
+      "text": "\n\n.mbs-8 { margin-block-start: calc(var(--spacing) * 8) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"mx-auto\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 92,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 93,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        926,
+        926
+      ],
+      "text": "\n\n.mx-auto { margin-inline: auto }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"pt-2\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 104,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 105,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1053,
+        1053
+      ],
+      "text": "\n\n.pt-2 { padding-top: calc(var(--spacing) * 2) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"pb-px\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 104,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 105,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1053,
+        1053
+      ],
+      "text": "\n\n.pb-px { padding-bottom: 1px }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"md:aspect-1/2\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.md\\:aspect-1\\/2 { @media (width >= 52rem) { aspect-ratio: 1 / 2 } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"sm:box-content\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.sm\\:box-content { @media (width >= 40rem) { box-sizing: content-box } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"md:block\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.md\\:block { @media (width >= 52rem) { display: block } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"dark:float-left\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.dark\\:float-left { @media (prefers-color-scheme: dark) { float: left } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"hover:clear-none\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.hover\\:clear-none { &:hover { clear: none } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"*:overscroll-none\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.\\*\\:overscroll-none { > * { overscroll-behavior: none } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"md:-inset-x-4\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.md\\:-inset-x-4 { @media (width >= 52rem) { inset-block: calc(var(--spacing) * -4) } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"sm:grow-2\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.sm\\:grow-2 { @media (width >= 40rem) { flex-grow: 2 } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"sm:shrink-0\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.sm\\:shrink-0 { @media (width >= 40rem) { flex-shrink: 0 } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"**:place-self-center\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.\\*\\*\\:place-self-center { * { place-self: center } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"md:z-200\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 135,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 136,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1342,
+        1342
+      ],
+      "text": "\n\n.md\\:z-200 { @media (width >= 52rem) { z-index: 200 } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"md:flex-wrap\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 135,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 136,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1342,
+        1342
+      ],
+      "text": "\n\n.md\\:flex-wrap { @media (width >= 52rem) { flex-wrap: wrap } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"md:gap-4\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 135,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 136,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1342,
+        1342
+      ],
+      "text": "\n\n.md\\:gap-4 { @media (width >= 52rem) { gap: calc(var(--spacing) * 4) } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"md:justify-around\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 135,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 136,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1342,
+        1342
+      ],
+      "text": "\n\n.md\\:justify-around { @media (width >= 52rem) { justify-content: space-around } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"md:items-stretch\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 135,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 136,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1342,
+        1342
+      ],
+      "text": "\n\n.md\\:items-stretch { @media (width >= 52rem) { align-items: stretch } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"md:self-center\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 135,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 136,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1342,
+        1342
+      ],
+      "text": "\n\n.md\\:self-center { @media (width >= 52rem) { align-self: center } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"md:m-4\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 135,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 136,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1342,
+        1342
+      ],
+      "text": "\n\n.md\\:m-4 { @media (width >= 52rem) { margin: calc(var(--spacing) * 4) } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"md:w-max\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 135,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 136,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1342,
+        1342
+      ],
+      "text": "\n\n.md\\:w-max { @media (width >= 52rem) { width: max-content;  } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"lg:columns-sm\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 141,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 141,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1419,
+        1419
+      ],
+      "text": "\n\n.lg\\:columns-sm { @media (width >= 64rem) { column-width: 40rem } }\n"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"lg:overflow-x-hidden\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 141,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 141,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1419,
+        1419
+      ],
+      "text": "\n\n.lg\\:overflow-x-hidden { @media (width >= 64rem) { overflow-x: hidden } }\n"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"lg:sticky\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 141,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 141,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1419,
+        1419
+      ],
+      "text": "\n\n.lg\\:sticky { @media (width >= 64rem) { position: sticky } }\n"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"lg:inset-y-1/3\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 141,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 141,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1419,
+        1419
+      ],
+      "text": "\n\n.lg\\:inset-y-1\\/3 { @media (width >= 64rem) { inset-inline: calc(1 / 3 * 100%) } }\n"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"lg:flex-row\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 141,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 141,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1419,
+        1419
+      ],
+      "text": "\n\n.lg\\:flex-row { @media (width >= 64rem) { flex-direction: row } }\n"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"lg:flex-2\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 141,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 141,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1419,
+        1419
+      ],
+      "text": "\n\n.lg\\:flex-2 { @media (width >= 64rem) { flex: 2 } }\n"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"lg:order-20\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 141,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 141,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1419,
+        1419
+      ],
+      "text": "\n\n.lg\\:order-20 { @media (width >= 64rem) { order: 20 } }\n"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"lg:place-content-end-safe\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 141,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 141,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1419,
+        1419
+      ],
+      "text": "\n\n.lg\\:place-content-end-safe { @media (width >= 64rem) { place-content: safe flex-end } }\n"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"lg:min-w-1/3\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 141,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 141,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1419,
+        1419
+      ],
+      "text": "\n\n.lg\\:min-w-1\\/3 { @media (width >= 64rem) { min-width: calc(1/3 / 3 * 100%);  } }\n"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"lg:max-w-lvw\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 141,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 141,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1419,
+        1419
+      ],
+      "text": "\n\n.lg\\:max-w-lvw { @media (width >= 64rem) { max-width: 100lvw;  } }\n"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"lg:h-dvh\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 141,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 141,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1419,
+        1419
+      ],
+      "text": "\n\n.lg\\:h-dvh { @media (width >= 64rem) { height: 100dvh;  } }\n"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"lg:size-min\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 141,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 141,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1419,
+        1419
+      ],
+      "text": "\n\n.lg\\:size-min { @media (width >= 64rem) { width: min-content; height: min-content;  } }\n"
+    }
+  }
+]

@@ -49,6 +49,7 @@ for (const fixtureDir of fixtureDirs) {
             plugins: { css, stylish },
             rules: {
               "stylish/no-unused-class": "error",
+              "stylish/no-missing-atom": "error",
             },
           },
         ],

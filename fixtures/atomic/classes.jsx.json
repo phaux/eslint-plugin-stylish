@@ -1,0 +1,362 @@
+[
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"md:aspect-1/2\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 44,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 57
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"lg:columns-sm\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 81,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 94
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"sm:box-content\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 108,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 122
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"md:block\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 130,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 138
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"dark:float-left\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 151,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 166
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"hover:clear-none\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 178,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 194
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"isolate\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 197,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 204
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"lg:overflow-x-hidden\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 221,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 241
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"*:overscroll-none\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 261,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 278
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"lg:sticky\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 288,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 297
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"md:-inset-x-4\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 309,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 322
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"lg:inset-y-1/3\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 335,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 349
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"md:z-200\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 368,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 376
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"lg:flex-row\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 388,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 399
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"md:flex-wrap\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 412,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 424
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"lg:flex-2\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 432,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 441
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"sm:grow-2\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 449,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 458
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"sm:shrink-0\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 466,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 477
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"lg:order-20\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 487,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 498
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"md:gap-4\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 505,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 513
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"md:justify-around\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 532,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 549
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"md:items-stretch\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 563,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 579
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"md:self-center\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 591,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 605
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"lg:place-content-end-safe\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 623,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 648
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"md:m-4\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 655,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 661
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"mx-auto\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 662,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 669
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"mbs-8\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 670,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 675
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"pt-2\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 676,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 680
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"pb-px\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 681,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 686
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"notDefined\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 687,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 697
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"**:place-self-center\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 698,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 718
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"lg:min-w-1/3\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 731,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 743
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"lg:max-w-lvw\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 755,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 767
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"md:w-max\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 774,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 782
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"lg:h-dvh\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 792,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 800
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"lg:size-min\" is not defined in any CSS file.",
+    "line": 1,
+    "column": 811,
+    "messageId": "classNotDefined",
+    "endLine": 1,
+    "endColumn": 822
+  }
+]
