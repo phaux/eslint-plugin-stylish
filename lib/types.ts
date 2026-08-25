@@ -10,6 +10,11 @@ export interface AtomDef {
    * The CSS to generate for the rule body.
    */
   body: string | ((match: RegExpMatchArray) => string)
+  /**
+   * The string to compare for ordering the rules.
+   * By default the matched name is used.
+   */
+  order?: string | ((match: RegExpMatchArray) => string) | undefined
 }
 
 /**
@@ -25,7 +30,7 @@ export interface ModifierDef {
    */
   selector: string | ((match: RegExpMatchArray) => string)
   /**
-   * The string to use for ordering the rules.
+   * The string to compare for ordering the rules.
    * By default the matched prefix is used.
    */
   order?: string | ((match: RegExpMatchArray) => string) | undefined

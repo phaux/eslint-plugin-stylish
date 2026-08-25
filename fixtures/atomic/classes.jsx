@@ -8,4 +8,12 @@ export const className = `
   justify-between md:justify-around items-center md:items-stretch self-start md:self-center content-end-safe lg:place-content-end-safe
   m-2 md:m-4 mx-auto mbs-8 pt-2 pb-px notDefined **:place-self-center
   min-w-1/2 lg:min-w-1/3 max-w-full lg:max-w-lvw w-fit md:w-max h-screen lg:h-dvh size-auto lg:size-min
+  font-serif text-lg italic font-bold tracking-wide text-center has-hover:underline group-focus:uppercase
+  portrait:truncate @sm:text-ellipsis text-balance text-white indent-2 tab-4 landscape:whitespace-nowrap
+  bg-white/50 rounded-sm rounded-b-md odd:rounded-s-none border aria-required:border-2 border-solid invalid:border-red
+  outline outline-blue shadow-sm shadow-green/25 text-shadow-md text-shadow-black/5
+  opacity-50 open:opacity-ghost backdrop-blur-xs brightness-105 dark:invert peer-hover:sepia-50
+  transition-transform transition-slow ease-in-out delay-33 rotate-15 scale-90 hover:-translate-y-2
+  zoom-large accent-pink caret-amber scheme-light-dark aria-busy:cursor-wait inert:pointer-events-none
+  snap-center snap-always snap-both snap-mandatory select-text
 `

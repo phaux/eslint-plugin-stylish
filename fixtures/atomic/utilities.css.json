@@ -2,6 +2,210 @@
   {
     "ruleId": "stylish/no-missing-atom",
     "severity": 2,
+    "message": "Atomic class \"accent-pink\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 8,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 9,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        86,
+        86
+      ],
+      "text": "\n\n.accent-pink { accent-color: var(--color-pink) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"bg-white/50\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 12,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 13,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        129,
+        129
+      ],
+      "text": "\n\n.bg-white\\/50 { background-color: color-mix(in oklab, white 50%, transparent) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"border\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 12,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 13,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        129,
+        129
+      ],
+      "text": "\n\n.border { border-width: 1px }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"border-solid\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 12,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 13,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        129,
+        129
+      ],
+      "text": "\n\n.border-solid { border-style: solid }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"backdrop-blur-xs\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 12,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 13,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        129,
+        129
+      ],
+      "text": "\n\n.backdrop-blur-xs { backdrop-filter: blur(var(--blur-xs, 4px)) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"brightness-105\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 16,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 17,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        172,
+        172
+      ],
+      "text": "\n\n.brightness-105 { filter: brightness(105%) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"caret-amber\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 16,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 17,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        172,
+        172
+      ],
+      "text": "\n\n.caret-amber { caret-color: var(--color-amber) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"ease-in-out\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 32,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 33,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        333,
+        333
+      ],
+      "text": "\n\n.ease-in-out { transition-timing-function: var(--easing-in-out, cubic-bezier(0.4, 0, 0.2, 1)) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"delay-33\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 32,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 33,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        333,
+        333
+      ],
+      "text": "\n\n.delay-33 { transition-delay: 33ms }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"font-serif\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 48,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 49,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        471,
+        471
+      ],
+      "text": "\n\n.font-serif { font-family: var(--font-family-serif, serif) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"font-bold\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 48,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 49,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        471,
+        471
+      ],
+      "text": "\n\n.font-bold { font-weight: 700 }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"indent-2\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 64,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 65,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        605,
+        605
+      ],
+      "text": "\n\n.indent-2 { text-indent: calc(var(--spacing) * 2) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
     "message": "Atomic class \"isolate\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
     "line": 72,
     "column": 1,
@@ -14,6 +218,23 @@
         692
       ],
       "text": "\n\n.isolate { isolation: isolate }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"italic\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 72,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 73,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        692,
+        692
+      ],
+      "text": "\n\n.italic { font-style: italic }"
     }
   },
   {
@@ -53,6 +274,57 @@
   {
     "ruleId": "stylish/no-missing-atom",
     "severity": 2,
+    "message": "Atomic class \"opacity-50\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 92,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 93,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        926,
+        926
+      ],
+      "text": "\n\n.opacity-50 { opacity: 50% }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"outline\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 96,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 97,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        954,
+        954
+      ],
+      "text": "\n\n.outline { outline-width: 1px }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"outline-blue\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 96,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 97,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        954,
+        954
+      ],
+      "text": "\n\n.outline-blue { outline-color: var(--color-blue) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
     "message": "Atomic class \"pt-2\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
     "line": 104,
     "column": 1,
@@ -82,6 +354,363 @@
         1053
       ],
       "text": "\n\n.pb-px { padding-bottom: 1px }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"rounded-sm\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 104,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 105,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1053,
+        1053
+      ],
+      "text": "\n\n.rounded-sm { border-radius: var(--radius-sm, 0.25rem) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"rotate-15\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 104,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 105,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1053,
+        1053
+      ],
+      "text": "\n\n.rotate-15 { rotate: 15deg }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"scale-90\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 104,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 105,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1053,
+        1053
+      ],
+      "text": "\n\n.scale-90 { scale: 90% }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"scheme-light-dark\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 104,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 105,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1053,
+        1053
+      ],
+      "text": "\n\n.scheme-light-dark { color-scheme: light dark }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"select-text\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 104,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 105,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1053,
+        1053
+      ],
+      "text": "\n\n.select-text { user-select: text }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"shadow-sm\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 108,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 109,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1096,
+        1096
+      ],
+      "text": "\n\n.shadow-sm { box-shadow: var(--shadow-sm, 0 1px 3px 0 var(--shadow-color, rgb(0 0 0 / 0.1)), 0 1px 2px -1px var(--shadow-color, rgb(0 0 0 / 0.1))) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"shadow-green/25\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 108,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 109,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1096,
+        1096
+      ],
+      "text": "\n\n.shadow-green\\/25 { --shadow-color: color-mix(in oklab, var(--color-green) 25%, transparent) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"snap-center\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 117,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 118,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1174,
+        1174
+      ],
+      "text": "\n\n.snap-center { scroll-snap-align: center }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"snap-always\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 117,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 118,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1174,
+        1174
+      ],
+      "text": "\n\n.snap-always { scroll-snap-stop: always }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"snap-both\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 117,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 118,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1174,
+        1174
+      ],
+      "text": "\n\n.snap-both { scroll-snap-type: both var(--snap-strictness, mandatory) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"snap-mandatory\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 117,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 118,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1174,
+        1174
+      ],
+      "text": "\n\n.snap-mandatory { --snap-strictness: mandatory }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"text-lg\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 121,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 122,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1207,
+        1207
+      ],
+      "text": "\n\n.text-lg { font-size: var(--text-lg, 1.125rem); line-height: var(--text-lg--line-height, calc(1.75 / 1.125)) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"tracking-wide\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 121,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 122,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1207,
+        1207
+      ],
+      "text": "\n\n.tracking-wide { letter-spacing: 0.025em }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"text-center\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 121,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 122,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1207,
+        1207
+      ],
+      "text": "\n\n.text-center { text-align: center }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"text-balance\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 121,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 122,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1207,
+        1207
+      ],
+      "text": "\n\n.text-balance { text-wrap: balance }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"text-white\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 121,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 122,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1207,
+        1207
+      ],
+      "text": "\n\n.text-white { color: white }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"tab-4\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 121,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 122,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1207,
+        1207
+      ],
+      "text": "\n\n.tab-4 { tab-size: 4 }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"text-shadow-md\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 121,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 122,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1207,
+        1207
+      ],
+      "text": "\n\n.text-shadow-md { color: var(--color-shadow-md) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"text-shadow-black/5\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 121,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 122,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1207,
+        1207
+      ],
+      "text": "\n\n.text-shadow-black\\/5 { color: color-mix(in oklab, var(--color-shadow-black) 5%, transparent) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"transition-transform\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 121,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 122,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1207,
+        1207
+      ],
+      "text": "\n\n.transition-transform { transition-property: transform, translate, rotate, scale; transition-duration: var(--default-transition-duration, 150ms) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"transition-slow\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 121,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 122,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1207,
+        1207
+      ],
+      "text": "\n\n.transition-slow { transition-duration: var(--duration-slow, 250ms)) }"
     }
   },
   {
@@ -252,6 +881,125 @@
         1269
       ],
       "text": "\n\n.\\*\\*\\:place-self-center { * { place-self: center } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"landscape:whitespace-nowrap\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.landscape\\:whitespace-nowrap { @media (orientation: landscape) { white-space: nowrap } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"invalid:border-red\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.invalid\\:border-red { &:invalid { border-color: var(--color-red) } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"dark:invert\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.dark\\:invert { @media (prefers-color-scheme: dark) { filter: invert(100%) } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"hover:-translate-y-2\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.hover\\:-translate-y-2 { &:hover { translate: 0 calc(var(--spacing) * -2) } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"zoom-large\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.zoom-large { zoom: var(--zoom-large, 115%) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"aria-busy:cursor-wait\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.aria-busy\\:cursor-wait { &[aria-busy=\"true\"] { cursor: wait } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"inert:pointer-events-none\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.inert\\:pointer-events-none { &:is([inert], [inert] *) { pointer-events: none } }"
     }
   },
   {
@@ -592,6 +1340,40 @@
         1419
       ],
       "text": "\n\n.lg\\:size-min { @media (width >= 64rem) { width: min-content; height: min-content;  } }\n"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"portrait:truncate\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 141,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 141,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1419,
+        1419
+      ],
+      "text": "\n\n.portrait\\:truncate { @media (orientation: portrait) { overflow: hidden; text-overflow: ellipsis; white-space: nowrap } }\n"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"open:opacity-ghost\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 141,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 141,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1419,
+        1419
+      ],
+      "text": "\n\n.open\\:opacity-ghost { &[open], &:popover-open, &:open { opacity: var(--opacity-ghost) } }\n"
     }
   }
 ]

@@ -358,5 +358,535 @@
     "messageId": "classNotDefined",
     "endLine": 10,
     "endColumn": 104
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"font-serif\" is not defined in any CSS file.",
+    "line": 11,
+    "column": 3,
+    "messageId": "classNotDefined",
+    "endLine": 11,
+    "endColumn": 13
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"text-lg\" is not defined in any CSS file.",
+    "line": 11,
+    "column": 14,
+    "messageId": "classNotDefined",
+    "endLine": 11,
+    "endColumn": 21
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"italic\" is not defined in any CSS file.",
+    "line": 11,
+    "column": 22,
+    "messageId": "classNotDefined",
+    "endLine": 11,
+    "endColumn": 28
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"font-bold\" is not defined in any CSS file.",
+    "line": 11,
+    "column": 29,
+    "messageId": "classNotDefined",
+    "endLine": 11,
+    "endColumn": 38
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"tracking-wide\" is not defined in any CSS file.",
+    "line": 11,
+    "column": 39,
+    "messageId": "classNotDefined",
+    "endLine": 11,
+    "endColumn": 52
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"text-center\" is not defined in any CSS file.",
+    "line": 11,
+    "column": 53,
+    "messageId": "classNotDefined",
+    "endLine": 11,
+    "endColumn": 64
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"has-hover:underline\" is not defined in any CSS file.",
+    "line": 11,
+    "column": 65,
+    "messageId": "classNotDefined",
+    "endLine": 11,
+    "endColumn": 84
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"group-focus:uppercase\" is not defined in any CSS file.",
+    "line": 11,
+    "column": 85,
+    "messageId": "classNotDefined",
+    "endLine": 11,
+    "endColumn": 106
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"portrait:truncate\" is not defined in any CSS file.",
+    "line": 12,
+    "column": 3,
+    "messageId": "classNotDefined",
+    "endLine": 12,
+    "endColumn": 20
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"@sm:text-ellipsis\" is not defined in any CSS file.",
+    "line": 12,
+    "column": 21,
+    "messageId": "classNotDefined",
+    "endLine": 12,
+    "endColumn": 38
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"text-balance\" is not defined in any CSS file.",
+    "line": 12,
+    "column": 39,
+    "messageId": "classNotDefined",
+    "endLine": 12,
+    "endColumn": 51
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"text-white\" is not defined in any CSS file.",
+    "line": 12,
+    "column": 52,
+    "messageId": "classNotDefined",
+    "endLine": 12,
+    "endColumn": 62
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"indent-2\" is not defined in any CSS file.",
+    "line": 12,
+    "column": 63,
+    "messageId": "classNotDefined",
+    "endLine": 12,
+    "endColumn": 71
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"tab-4\" is not defined in any CSS file.",
+    "line": 12,
+    "column": 72,
+    "messageId": "classNotDefined",
+    "endLine": 12,
+    "endColumn": 77
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"landscape:whitespace-nowrap\" is not defined in any CSS file.",
+    "line": 12,
+    "column": 78,
+    "messageId": "classNotDefined",
+    "endLine": 12,
+    "endColumn": 105
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"bg-white/50\" is not defined in any CSS file.",
+    "line": 13,
+    "column": 3,
+    "messageId": "classNotDefined",
+    "endLine": 13,
+    "endColumn": 14
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"rounded-sm\" is not defined in any CSS file.",
+    "line": 13,
+    "column": 15,
+    "messageId": "classNotDefined",
+    "endLine": 13,
+    "endColumn": 25
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"rounded-b-md\" is not defined in any CSS file.",
+    "line": 13,
+    "column": 26,
+    "messageId": "classNotDefined",
+    "endLine": 13,
+    "endColumn": 38
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"odd:rounded-s-none\" is not defined in any CSS file.",
+    "line": 13,
+    "column": 39,
+    "messageId": "classNotDefined",
+    "endLine": 13,
+    "endColumn": 57
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"border\" is not defined in any CSS file.",
+    "line": 13,
+    "column": 58,
+    "messageId": "classNotDefined",
+    "endLine": 13,
+    "endColumn": 64
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"aria-required:border-2\" is not defined in any CSS file.",
+    "line": 13,
+    "column": 65,
+    "messageId": "classNotDefined",
+    "endLine": 13,
+    "endColumn": 87
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"border-solid\" is not defined in any CSS file.",
+    "line": 13,
+    "column": 88,
+    "messageId": "classNotDefined",
+    "endLine": 13,
+    "endColumn": 100
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"invalid:border-red\" is not defined in any CSS file.",
+    "line": 13,
+    "column": 101,
+    "messageId": "classNotDefined",
+    "endLine": 13,
+    "endColumn": 119
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"outline\" is not defined in any CSS file.",
+    "line": 14,
+    "column": 3,
+    "messageId": "classNotDefined",
+    "endLine": 14,
+    "endColumn": 10
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"outline-blue\" is not defined in any CSS file.",
+    "line": 14,
+    "column": 11,
+    "messageId": "classNotDefined",
+    "endLine": 14,
+    "endColumn": 23
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"shadow-sm\" is not defined in any CSS file.",
+    "line": 14,
+    "column": 24,
+    "messageId": "classNotDefined",
+    "endLine": 14,
+    "endColumn": 33
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"shadow-green/25\" is not defined in any CSS file.",
+    "line": 14,
+    "column": 34,
+    "messageId": "classNotDefined",
+    "endLine": 14,
+    "endColumn": 49
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"text-shadow-md\" is not defined in any CSS file.",
+    "line": 14,
+    "column": 50,
+    "messageId": "classNotDefined",
+    "endLine": 14,
+    "endColumn": 64
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"text-shadow-black/5\" is not defined in any CSS file.",
+    "line": 14,
+    "column": 65,
+    "messageId": "classNotDefined",
+    "endLine": 14,
+    "endColumn": 84
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"opacity-50\" is not defined in any CSS file.",
+    "line": 15,
+    "column": 3,
+    "messageId": "classNotDefined",
+    "endLine": 15,
+    "endColumn": 13
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"open:opacity-ghost\" is not defined in any CSS file.",
+    "line": 15,
+    "column": 14,
+    "messageId": "classNotDefined",
+    "endLine": 15,
+    "endColumn": 32
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"backdrop-blur-xs\" is not defined in any CSS file.",
+    "line": 15,
+    "column": 33,
+    "messageId": "classNotDefined",
+    "endLine": 15,
+    "endColumn": 49
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"brightness-105\" is not defined in any CSS file.",
+    "line": 15,
+    "column": 50,
+    "messageId": "classNotDefined",
+    "endLine": 15,
+    "endColumn": 64
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"dark:invert\" is not defined in any CSS file.",
+    "line": 15,
+    "column": 65,
+    "messageId": "classNotDefined",
+    "endLine": 15,
+    "endColumn": 76
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"peer-hover:sepia-50\" is not defined in any CSS file.",
+    "line": 15,
+    "column": 77,
+    "messageId": "classNotDefined",
+    "endLine": 15,
+    "endColumn": 96
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"transition-transform\" is not defined in any CSS file.",
+    "line": 16,
+    "column": 3,
+    "messageId": "classNotDefined",
+    "endLine": 16,
+    "endColumn": 23
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"transition-slow\" is not defined in any CSS file.",
+    "line": 16,
+    "column": 24,
+    "messageId": "classNotDefined",
+    "endLine": 16,
+    "endColumn": 39
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"ease-in-out\" is not defined in any CSS file.",
+    "line": 16,
+    "column": 40,
+    "messageId": "classNotDefined",
+    "endLine": 16,
+    "endColumn": 51
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"delay-33\" is not defined in any CSS file.",
+    "line": 16,
+    "column": 52,
+    "messageId": "classNotDefined",
+    "endLine": 16,
+    "endColumn": 60
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"rotate-15\" is not defined in any CSS file.",
+    "line": 16,
+    "column": 61,
+    "messageId": "classNotDefined",
+    "endLine": 16,
+    "endColumn": 70
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"scale-90\" is not defined in any CSS file.",
+    "line": 16,
+    "column": 71,
+    "messageId": "classNotDefined",
+    "endLine": 16,
+    "endColumn": 79
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"hover:-translate-y-2\" is not defined in any CSS file.",
+    "line": 16,
+    "column": 80,
+    "messageId": "classNotDefined",
+    "endLine": 16,
+    "endColumn": 100
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"zoom-large\" is not defined in any CSS file.",
+    "line": 17,
+    "column": 3,
+    "messageId": "classNotDefined",
+    "endLine": 17,
+    "endColumn": 13
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"accent-pink\" is not defined in any CSS file.",
+    "line": 17,
+    "column": 14,
+    "messageId": "classNotDefined",
+    "endLine": 17,
+    "endColumn": 25
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"caret-amber\" is not defined in any CSS file.",
+    "line": 17,
+    "column": 26,
+    "messageId": "classNotDefined",
+    "endLine": 17,
+    "endColumn": 37
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"scheme-light-dark\" is not defined in any CSS file.",
+    "line": 17,
+    "column": 38,
+    "messageId": "classNotDefined",
+    "endLine": 17,
+    "endColumn": 55
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"aria-busy:cursor-wait\" is not defined in any CSS file.",
+    "line": 17,
+    "column": 56,
+    "messageId": "classNotDefined",
+    "endLine": 17,
+    "endColumn": 77
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"inert:pointer-events-none\" is not defined in any CSS file.",
+    "line": 17,
+    "column": 78,
+    "messageId": "classNotDefined",
+    "endLine": 17,
+    "endColumn": 103
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"snap-center\" is not defined in any CSS file.",
+    "line": 18,
+    "column": 3,
+    "messageId": "classNotDefined",
+    "endLine": 18,
+    "endColumn": 14
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"snap-always\" is not defined in any CSS file.",
+    "line": 18,
+    "column": 15,
+    "messageId": "classNotDefined",
+    "endLine": 18,
+    "endColumn": 26
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"snap-both\" is not defined in any CSS file.",
+    "line": 18,
+    "column": 27,
+    "messageId": "classNotDefined",
+    "endLine": 18,
+    "endColumn": 36
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"snap-mandatory\" is not defined in any CSS file.",
+    "line": 18,
+    "column": 37,
+    "messageId": "classNotDefined",
+    "endLine": 18,
+    "endColumn": 51
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"select-text\" is not defined in any CSS file.",
+    "line": 18,
+    "column": 52,
+    "messageId": "classNotDefined",
+    "endLine": 18,
+    "endColumn": 63
   }
 ]
