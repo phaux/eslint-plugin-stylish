@@ -888,5 +888,15 @@
     "messageId": "classNotDefined",
     "endLine": 18,
     "endColumn": 63
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 1,
+    "message": "Class \"xl:min-w-screen-lg\" is not defined in any CSS file.",
+    "line": 19,
+    "column": 3,
+    "messageId": "classNotDefined",
+    "endLine": 19,
+    "endColumn": 21
   }
 ]

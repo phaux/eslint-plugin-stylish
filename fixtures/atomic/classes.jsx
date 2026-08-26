@@ -16,4 +16,5 @@ export const className = `
   transition-transform transition-slow ease-in-out delay-33 rotate-15 scale-90 hover:-translate-y-2
   zoom-large accent-pink caret-amber scheme-light-dark aria-busy:cursor-wait inert:pointer-events-none
   snap-center snap-always snap-both snap-mandatory select-text
+  xl:min-w-screen-lg
 `

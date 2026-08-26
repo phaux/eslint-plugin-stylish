@@ -1375,5 +1375,22 @@
       ],
       "text": "\n\n.open\\:opacity-ghost { &[open], &:popover-open, &:open { opacity: var(--opacity-ghost) } }\n"
     }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 2,
+    "message": "Atomic class \"xl:min-w-screen-lg\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 141,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 141,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1419,
+        1419
+      ],
+      "text": "\n\n.xl\\:min-w-screen-lg { @media (width >= 80rem) { min-width: 64rem;  } }\n"
+    }
   }
 ]
