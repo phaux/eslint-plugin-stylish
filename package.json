@@ -13,6 +13,10 @@
   },
   "main": "./lib/index.js",
   "types": "./types/index.d.ts",
+  "files": [
+    "lib",
+    "types"
+  ],
   "scripts": {
     "format": "prettier --write .",
     "lint": "eslint",
