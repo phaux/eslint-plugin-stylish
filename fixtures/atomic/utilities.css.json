@@ -166,7 +166,7 @@
         471,
         471
       ],
-      "text": "\n\n.font-serif { font-family: var(--font-family-serif, serif) }"
+      "text": "\n\n.font-serif { font-family: var(--font-serif, serif) }"
     }
   },
   {
