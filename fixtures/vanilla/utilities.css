@@ -1,13 +1,11 @@
-@layer utilities {
-  .hover\:bg-\[Highlight\] {
-    &:hover {
-      background-color: Highlight;
-    }
+.hover\:bg-highlight {
+  &:hover {
+    background-color: var(--color-highlight, highlight);
   }
+}
 
-  .lg\:flex-row {
-    @media (width >= 768px) {
-      flex-direction: row;
-    }
+.lg\:flex-row {
+  @media (width >= 768px) {
+    flex-direction: row;
   }
 }

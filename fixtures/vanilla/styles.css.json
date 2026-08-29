@@ -28,5 +28,22 @@
     "messageId": "classNotUsed",
     "endLine": 61,
     "endColumn": 4
+  },
+  {
+    "ruleId": "stylish/no-unused-class",
+    "severity": 1,
+    "message": "Class \"hidden\" is not referenced in any JS file.",
+    "line": 65,
+    "column": 1,
+    "messageId": "classNotUsed",
+    "endLine": 65,
+    "endColumn": 8,
+    "fix": {
+      "range": [
+        669,
+        697
+      ],
+      "text": ""
+    }
   }
 ]

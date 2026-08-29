@@ -1,4 +1,4 @@
-@import "./utilities.css";
+@import "./utilities.css" layer(utilities);
 
 *,
 ::before,
@@ -60,4 +60,8 @@ button {
 
 .\ꙮ {
   color: blue;
+}
+
+.hidden {
+  display: none;
 }

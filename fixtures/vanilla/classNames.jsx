@@ -9,7 +9,7 @@ export function App() {
       <div className=" foo-wrapper bar-wrapper " />
       <div className="button input" />
       <div className="component--element__state" />
-      <div className="hover:bg-[Highlight]" />
+      <div className="hover:bg-highlight" />
       <div className="lg" />
     </>
   )
