@@ -1,7 +1,7 @@
 [
   {
     "ruleId": "stylish/no-undefined-class",
-    "severity": 1,
+    "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
     "line": 2,
     "column": 35,
@@ -11,7 +11,7 @@
   },
   {
     "ruleId": "stylish/no-undefined-class",
-    "severity": 1,
+    "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
     "line": 3,
     "column": 45,
@@ -21,7 +21,7 @@
   },
   {
     "ruleId": "stylish/no-undefined-class",
-    "severity": 1,
+    "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
     "line": 4,
     "column": 22,
@@ -31,7 +31,7 @@
   },
   {
     "ruleId": "stylish/no-undefined-class",
-    "severity": 1,
+    "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
     "line": 6,
     "column": 37,
@@ -41,7 +41,7 @@
   },
   {
     "ruleId": "stylish/no-undefined-class",
-    "severity": 1,
+    "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
     "line": 7,
     "column": 26,
@@ -51,7 +51,7 @@
   },
   {
     "ruleId": "stylish/no-undefined-class",
-    "severity": 1,
+    "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
     "line": 10,
     "column": 34,
@@ -61,7 +61,7 @@
   },
   {
     "ruleId": "stylish/no-undefined-class",
-    "severity": 1,
+    "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
     "line": 15,
     "column": 29,
@@ -71,7 +71,7 @@
   },
   {
     "ruleId": "stylish/no-undefined-class",
-    "severity": 1,
+    "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
     "line": 16,
     "column": 34,
@@ -81,7 +81,7 @@
   },
   {
     "ruleId": "stylish/no-undefined-class",
-    "severity": 1,
+    "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
     "line": 17,
     "column": 35,
@@ -91,7 +91,7 @@
   },
   {
     "ruleId": "stylish/no-undefined-class",
-    "severity": 1,
+    "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
     "line": 18,
     "column": 39,
@@ -101,7 +101,7 @@
   },
   {
     "ruleId": "stylish/no-undefined-class",
-    "severity": 1,
+    "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
     "line": 20,
     "column": 44,
@@ -111,7 +111,7 @@
   },
   {
     "ruleId": "stylish/no-undefined-class",
-    "severity": 1,
+    "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
     "line": 36,
     "column": 11,
@@ -121,7 +121,7 @@
   },
   {
     "ruleId": "stylish/no-undefined-class",
-    "severity": 1,
+    "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
     "line": 40,
     "column": 48,
@@ -131,7 +131,7 @@
   },
   {
     "ruleId": "stylish/no-undefined-class",
-    "severity": 1,
+    "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
     "line": 41,
     "column": 47,
@@ -141,7 +141,7 @@
   },
   {
     "ruleId": "stylish/no-undefined-class",
-    "severity": 1,
+    "severity": 2,
     "message": "Class \"undefinedClass\" is not defined in any CSS file.",
     "line": 42,
     "column": 40,
