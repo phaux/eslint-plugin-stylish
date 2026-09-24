@@ -1,5 +1,15 @@
 [
   {
+    "ruleId": "stylish/no-undefined-var",
+    "severity": 2,
+    "message": "Undefined custom property \"--color-highlight\".",
+    "line": 3,
+    "column": 27,
+    "messageId": "varNotDefined",
+    "endLine": 3,
+    "endColumn": 44
+  },
+  {
     "ruleId": "stylish/no-unused-class",
     "severity": 1,
     "message": "Class \"lg:flex-row\" is not referenced in any JS file.",

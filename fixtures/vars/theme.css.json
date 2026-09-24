@@ -1,0 +1,22 @@
+[
+  {
+    "ruleId": "stylish/no-unused-var",
+    "severity": 1,
+    "message": "Unused custom property \"--color-🦄\".",
+    "line": 6,
+    "column": 3,
+    "messageId": "varNotUsed",
+    "endLine": 6,
+    "endColumn": 13
+  },
+  {
+    "ruleId": "stylish/no-unused-var",
+    "severity": 1,
+    "message": "Unused custom property \"--color-\\?\".",
+    "line": 8,
+    "column": 3,
+    "messageId": "varNotUsed",
+    "endLine": 8,
+    "endColumn": 13
+  }
+]

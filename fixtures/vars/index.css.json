@@ -1,0 +1,42 @@
+[
+  {
+    "ruleId": "stylish/no-unused-class",
+    "severity": 1,
+    "message": "Class \"invalid\" is not referenced in any JS file.",
+    "line": 17,
+    "column": 1,
+    "messageId": "classNotUsed",
+    "endLine": 17,
+    "endColumn": 9
+  },
+  {
+    "ruleId": "stylish/no-unused-var",
+    "severity": 1,
+    "message": "Unused custom property \"--color\".",
+    "line": 18,
+    "column": 3,
+    "messageId": "varNotUsed",
+    "endLine": 18,
+    "endColumn": 10
+  },
+  {
+    "ruleId": "stylish/no-undefined-var",
+    "severity": 2,
+    "message": "Undefined custom property \"--color-undefined\".",
+    "line": 20,
+    "column": 9,
+    "messageId": "varNotDefined",
+    "endLine": 20,
+    "endColumn": 26
+  },
+  {
+    "ruleId": "stylish/no-undefined-var",
+    "severity": 2,
+    "message": "Undefined custom property \"--space-ꙮ\".",
+    "line": 25,
+    "column": 27,
+    "messageId": "varNotDefined",
+    "endLine": 25,
+    "endColumn": 36
+  }
+]

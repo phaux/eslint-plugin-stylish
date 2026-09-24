@@ -1,0 +1,27 @@
+@import "./theme.css";
+
+a {
+  color: var(--color-ink);
+
+  &:hover {
+    color: var(--color-accent);
+  }
+}
+
+button:default {
+  background-color: var(--color-🦊);
+  border: 1px solid var(--color-\*);
+  padding: var(--spacing);
+}
+
+.invalid {
+  --color: color-mix(
+    in oklab,
+    var(--color-undefined, hotpink) 50%,
+    transparent
+  );
+
+  @media (width >= 48rem) {
+    margin: calc(-1 * var(--space-ꙮ, 0.25rem) * 4);
+  }
+}
