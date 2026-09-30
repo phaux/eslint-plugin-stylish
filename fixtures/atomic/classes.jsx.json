@@ -898,5 +898,25 @@
     "messageId": "classNotDefined",
     "endLine": 19,
     "endColumn": 21
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"w-sidebar\" is not defined in any CSS file.",
+    "line": 19,
+    "column": 22,
+    "messageId": "classNotDefined",
+    "endLine": 19,
+    "endColumn": 31
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"landscape:h-toolbar\" is not defined in any CSS file.",
+    "line": 19,
+    "column": 32,
+    "messageId": "classNotDefined",
+    "endLine": 19,
+    "endColumn": 51
   }
 ]

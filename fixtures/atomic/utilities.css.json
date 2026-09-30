@@ -716,6 +716,23 @@
   {
     "ruleId": "stylish/no-missing-atom",
     "severity": 1,
+    "message": "Atomic class \"w-sidebar\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 125,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 126,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1241,
+        1241
+      ],
+      "text": "\n\n.w-sidebar { width: var(--size-sidebar);  }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 1,
     "message": "Atomic class \"md:aspect-1/2\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
     "line": 129,
     "column": 1,
@@ -1000,6 +1017,23 @@
         1269
       ],
       "text": "\n\n.inert\\:pointer-events-none { &:is([inert], [inert] *) { pointer-events: none } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 1,
+    "message": "Atomic class \"landscape:h-toolbar\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.landscape\\:h-toolbar { @media (orientation: landscape) { height: var(--size-toolbar);  } }"
     }
   },
   {
