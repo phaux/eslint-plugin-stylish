@@ -189,6 +189,23 @@
   {
     "ruleId": "stylish/no-missing-atom",
     "severity": 1,
+    "message": "Atomic class \"gap-px\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 52,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 53,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        516,
+        516
+      ],
+      "text": "\n\n.gap-px { gap: 1px }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 1,
     "message": "Atomic class \"indent-2\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
     "line": 64,
     "column": 1,
@@ -1034,6 +1051,23 @@
         1269
       ],
       "text": "\n\n.landscape\\:h-toolbar { @media (orientation: landscape) { height: var(--size-toolbar);  } }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 1,
+    "message": "Atomic class \"aria-current:bg-accent\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 129,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 130,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1269,
+        1269
+      ],
+      "text": "\n\n.aria-current\\:bg-accent { &[aria-current]:where(:not([aria-current=\"false\"])) { background-color: var(--color-accent, AccentColor) } }"
     }
   },
   {

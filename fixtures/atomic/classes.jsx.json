@@ -918,5 +918,25 @@
     "messageId": "classNotDefined",
     "endLine": 19,
     "endColumn": 51
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"aria-current:bg-accent\" is not defined in any CSS file.",
+    "line": 19,
+    "column": 52,
+    "messageId": "classNotDefined",
+    "endLine": 19,
+    "endColumn": 74
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"gap-px\" is not defined in any CSS file.",
+    "line": 19,
+    "column": 75,
+    "messageId": "classNotDefined",
+    "endLine": 19,
+    "endColumn": 81
   }
 ]
