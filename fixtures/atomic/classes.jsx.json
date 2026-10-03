@@ -902,6 +902,16 @@
   {
     "ruleId": "stylish/no-undefined-class",
     "severity": 2,
+    "message": "Class \"-my-4\" is not defined in any CSS file.",
+    "line": 18,
+    "column": 64,
+    "messageId": "classNotDefined",
+    "endLine": 18,
+    "endColumn": 69
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
     "message": "Class \"xl:min-w-screen-lg\" is not defined in any CSS file.",
     "line": 19,
     "column": 3,

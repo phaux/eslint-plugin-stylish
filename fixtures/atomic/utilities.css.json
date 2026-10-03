@@ -19,6 +19,23 @@
   {
     "ruleId": "stylish/no-missing-atom",
     "severity": 1,
+    "message": "Atomic class \"-my-4\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 8,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 9,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        86,
+        86
+      ],
+      "text": "\n\n.-my-4 { margin-block: calc(var(--spacing) * -4) }"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 1,
     "message": "Atomic class \"bg-white/50\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
     "line": 12,
     "column": 1,

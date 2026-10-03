@@ -15,6 +15,6 @@ export const className = `
   opacity-50 open:opacity-ghost backdrop-blur-xs brightness-105 dark:invert peer-hover:sepia-50
   transition-transform  duration-slow  ease-in-out delay-33 rotate-15 scale-90 hover:-translate-y-2 motion-safe:duration-move
   zoom-large accent-pink caret-amber scheme-light-dark aria-busy:cursor-wait inert:pointer-events-none
-  snap-center snap-always snap-both snap-mandatory select-text
+  snap-center snap-always snap-both snap-mandatory select-text -my-4
   xl:min-w-screen-lg w-sidebar landscape:h-toolbar aria-current:bg-accent gap-px
 `
