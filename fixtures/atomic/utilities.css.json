@@ -727,7 +727,7 @@
         1207,
         1207
       ],
-      "text": "\n\n.duration-slow { transition-duration: var(--duration-slow, 250ms)) }"
+      "text": "\n\n.duration-slow { transition-duration: var(--duration-slow, 250ms) }"
     }
   },
   {
