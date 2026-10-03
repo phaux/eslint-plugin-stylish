@@ -722,12 +722,12 @@
   {
     "ruleId": "stylish/no-undefined-class",
     "severity": 2,
-    "message": "Class \"transition-slow\" is not defined in any CSS file.",
+    "message": "Class \"duration-slow\" is not defined in any CSS file.",
     "line": 16,
-    "column": 24,
+    "column": 25,
     "messageId": "classNotDefined",
     "endLine": 16,
-    "endColumn": 39
+    "endColumn": 38
   },
   {
     "ruleId": "stylish/no-undefined-class",
@@ -778,6 +778,16 @@
     "messageId": "classNotDefined",
     "endLine": 16,
     "endColumn": 100
+  },
+  {
+    "ruleId": "stylish/no-undefined-class",
+    "severity": 2,
+    "message": "Class \"motion-safe:duration-move\" is not defined in any CSS file.",
+    "line": 16,
+    "column": 101,
+    "messageId": "classNotDefined",
+    "endLine": 16,
+    "endColumn": 126
   },
   {
     "ruleId": "stylish/no-undefined-class",

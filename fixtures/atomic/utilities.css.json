@@ -716,7 +716,7 @@
   {
     "ruleId": "stylish/no-missing-atom",
     "severity": 1,
-    "message": "Atomic class \"transition-slow\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "message": "Atomic class \"duration-slow\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
     "line": 121,
     "column": 1,
     "messageId": "atomMissing",
@@ -727,7 +727,7 @@
         1207,
         1207
       ],
-      "text": "\n\n.transition-slow { transition-duration: var(--duration-slow, 250ms)) }"
+      "text": "\n\n.duration-slow { transition-duration: var(--duration-slow, 250ms)) }"
     }
   },
   {
@@ -1442,6 +1442,23 @@
         1419
       ],
       "text": "\n\n.open\\:opacity-ghost { &[open], &:popover-open, &:open { opacity: var(--opacity-ghost) } }\n"
+    }
+  },
+  {
+    "ruleId": "stylish/no-missing-atom",
+    "severity": 1,
+    "message": "Atomic class \"motion-safe:duration-move\" is referenced in \"classes.jsx\", but not found in the utilities CSS file.",
+    "line": 141,
+    "column": 1,
+    "messageId": "atomMissing",
+    "endLine": 141,
+    "endColumn": 1,
+    "fix": {
+      "range": [
+        1419,
+        1419
+      ],
+      "text": "\n\n.motion-safe\\:duration-move { @media (prefers-reduced-motion: no-preference) { transition-duration: var(--duration-move) } }\n"
     }
   },
   {

@@ -13,7 +13,7 @@ export const className = `
   bg-white/50 rounded-sm rounded-b-md odd:rounded-s-none border aria-required:border-2 border-solid invalid:border-red
   outline outline-blue shadow-sm shadow-green/25 text-shadow-md text-shadow-black/5
   opacity-50 open:opacity-ghost backdrop-blur-xs brightness-105 dark:invert peer-hover:sepia-50
-  transition-transform transition-slow ease-in-out delay-33 rotate-15 scale-90 hover:-translate-y-2
+  transition-transform  duration-slow  ease-in-out delay-33 rotate-15 scale-90 hover:-translate-y-2 motion-safe:duration-move
   zoom-large accent-pink caret-amber scheme-light-dark aria-busy:cursor-wait inert:pointer-events-none
   snap-center snap-always snap-both snap-mandatory select-text
   xl:min-w-screen-lg w-sidebar landscape:h-toolbar aria-current:bg-accent gap-px
