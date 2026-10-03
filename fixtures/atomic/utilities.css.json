@@ -880,7 +880,7 @@
         1269,
         1269
       ],
-      "text": "\n\n.md\\:-inset-x-4 { @media (width >= 52rem) { inset-block: calc(var(--spacing) * -4) } }"
+      "text": "\n\n.md\\:-inset-x-4 { @media (width >= 52rem) { inset-inline: calc(var(--spacing) * -4) } }"
     }
   },
   {
@@ -1288,7 +1288,7 @@
         1419,
         1419
       ],
-      "text": "\n\n.lg\\:inset-y-1\\/3 { @media (width >= 64rem) { inset-inline: calc(1 / 3 * 100%) } }\n"
+      "text": "\n\n.lg\\:inset-y-1\\/3 { @media (width >= 64rem) { inset-block: calc(1 / 3 * 100%) } }\n"
     }
   },
   {
